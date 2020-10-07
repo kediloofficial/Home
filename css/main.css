@@ -16,7 +16,7 @@ body {
 }
 
 html {
-	background: #161415 url(../images/bg\ 2.jpg) no-repeat center center fixed;
+	background: #161415 url(../images/bg\ 2.jpg)  no-repeat center center fixed ;
 	-webkit-background-size: cover !important;
 	-moz-background-size: cover !important;
 	background-size: cover !important;
@@ -26,6 +26,7 @@ body {
 	font: 15px/30px "montserrat-regular", sans-serif;
 	font-weight: normal;
 	color: #575859;
+	background-color: rgba(41, 41, 41, 0.7);
 }
 
 /* links 
@@ -327,8 +328,8 @@ img.pull-left {
 	border-right: 11px solid rgba(255, 255, 255, 0.2);
 	border-bottom: 11px solid rgba(255, 255, 255, 0.2);
 	border-left: 11px solid #fbca08;
-	-webkit-animation: load 1.1s infinite linear;
-	animation: load 2.1s infinite linear;
+	-webkit-animation: load 1.0s infinite linear;
+	animation: load 1.1s infinite linear;
 	display: block;
 	border-radius: 50%;
 	width: 60px;
