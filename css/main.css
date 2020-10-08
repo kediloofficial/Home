@@ -13,6 +13,9 @@
 html,
 body {
 	height: 100%;
+	
+	
+	
 }
 
 html {
@@ -20,13 +23,17 @@ html {
 	-webkit-background-size: cover !important;
 	-moz-background-size: cover !important;
 	background-size: cover !important;
+	
+	
+	
 }
 
 body {
 	font: 15px/30px "montserrat-regular", sans-serif;
 	font-weight: normal;
 	color: #575859;
-	background-color: rgba(41, 41, 41, 0.7);
+	
+
 }
 
 /* links 
@@ -60,6 +67,7 @@ h6 {
 	font-style: normal;
 	text-rendering: optimizeLegibility;
 	margin: 18px 0 15px;
+	
 }
 
 h1 a,
@@ -448,6 +456,7 @@ input[type="checkbox"] {
 #content-wrap {
 	min-height: 100%;
 	padding-top: 6%;
+	background-color: rgba(41, 41, 41, 0.7);
 }
 
 @media only screen and (max-width:900px) {
@@ -838,6 +847,7 @@ main .site-header .logo a {
 ------------------------------------------ */
 .modal-toggles {
 	clear: both;
+	
 }
 
 .modal-toggles ul {
@@ -846,6 +856,7 @@ main .site-header .logo a {
 	text-transform: uppercase;
 	font: 13px/24px "montserrat-bold", sans-serif;
 	letter-spacing: 1px;
+	
 }
 
 .modal-toggles li {
@@ -962,6 +973,7 @@ main .site-header .logo a {
 	-webkit-transform: translateX(-100%);
 	-ms-transform: translateX(-100%);
 	transform: translateX(-100%);
+	
 }
 
 #mod-map {
@@ -1081,6 +1093,8 @@ main .site-header .logo a {
 ------------------------------------------ */
 #mod-about {
 	z-index: 999991;
+	
+	
 }
 
 #mod-about::after {
@@ -1190,6 +1204,7 @@ main .site-header .logo a {
 /* about content */
 .about-content {
 	color: white;
+	
 }
 
 .about-content h3 {
@@ -1214,6 +1229,7 @@ main .site-header .logo a {
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
 	opacity: 0.1;
 	zoom: 1;
+	
 }
 
 #owl-slider {
