@@ -19,7 +19,7 @@ body {
 }
 
 html {
-	background: #161415 url(../images/bg\ 2.jpg)  no-repeat center center fixed ;
+	background: #161415 url(../images/bg.png)  no-repeat center center fixed ;
 	-webkit-background-size: cover !important;
 	-moz-background-size: cover !important;
 	background-size: cover !important;
@@ -336,8 +336,8 @@ img.pull-left {
 	border-right: 11px solid rgba(255, 255, 255, 0.2);
 	border-bottom: 11px solid rgba(255, 255, 255, 0.2);
 	border-left: 11px solid #fbca08;
-	-webkit-animation: load 0.5s infinite linear;
-	animation: load 0.6s infinite linear;
+	-webkit-animation: load 0.4s infinite linear;
+	animation: load 0.4s infinite linear;
 	display: block;
 	border-radius: 50%;
 	width: 60px;
@@ -456,7 +456,7 @@ input[type="checkbox"] {
 #content-wrap {
 	min-height: 100%;
 	padding-top: 6%;
-	background-color: rgba(41, 41, 41, 0.7);
+
 }
 
 @media only screen and (max-width:900px) {
