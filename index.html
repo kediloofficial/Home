@@ -46,6 +46,7 @@
    <!-- Modernizr
    =================================================== -->
    <script src="js/modernizr.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 
     <!-- Fonts -->
@@ -106,7 +107,7 @@
                <!-- MailChimp Signup Form -->
                <div id="mc-signup">
 
-                  <form id="mc-form" class="group">
+                  <form id="submit-form"  class="group" action="">
                           
                		<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>                       
                                        
@@ -271,6 +272,26 @@
     	<div id="loader">
      	</div>
    </div> 
+
+   <script>
+      $("#submit-form").submit((e)=>{
+          e.preventDefault()
+          $.ajax({
+              url:"https://script.google.com/macros/s/AKfycbzjucN46R7w_2o11VHtNyNdDMGQAokmUgnDExTOsQ/exec",
+              data:$("#submit-form").serialize(),
+              method:"post",
+              success:function (response){
+                  alert("Thank you for contacting us, we'll be in touch soon")
+                  window.location.reload()
+                  //window.location.href="https://google.com"
+              },
+              error:function (err){
+                  alert("Something Error")
+  
+              }
+          })
+      })
+  </script>
    
 <!-- Script
 =================================================== -->
